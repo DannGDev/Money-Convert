@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin-bottom: 24px;
+    font-size: 30px;
+    width: 203px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    background-color: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+select {
+    color: black;
+    Width: 100%;
+    Height: 48px;
+    Top: 68px;
+    Left: 24px;
+    border-radius: 10px;
+    Border: 1px solid grey;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    font-weight: 700;
+    
+}
+
+
+input {
+    color: black;
+    Width: 327px;
+    Height: 48px;
+    Top: 68px;
+    Left: 24px;
+    border-radius: 10px;
+    Border: 1px solid grey;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    
+
+}
+
+button {
+    background-color: #777777;
+    Width: 327px;
+    Height: 48px; 
+    Top: 329px; 
+    Left: 24px; 
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .6;
+}
+
+.box2 {
+    width: 327px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 36px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px
+}
+
+img {
+    width: 65px;
+    height: auto;
+}
+
+.img2 {
+    width: 35px;
+    height: 49.9px;
+}
+
+div {
+    margin: 12px auto 15px;
+}
+
+p {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+    height: 18px;
+}

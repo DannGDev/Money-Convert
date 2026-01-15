@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>DannG Dev Money Convert</title>
+</head>
+<body>
+    <img src="./assets/money.gif" alt="money-hand"/>
+    <div class="container">
+        <header class="header">
+            <h3>DannG-Dev Money convert</h3>
+        </header>
+        <main class="box">
+           
+            <label>
+                FROM:
+                <select>
+                    <option>R$ Brazilian Real (BRL)</option>
+                </select>
+            </label>
+           
+            <label>
+                TO:
+                <select class="currency-select">    
+                    <option value="dolar">$ US Dolar (USD)</option>
+                    <option value="euro">€ Euro (EUR)</option>
+                    <option value="caddolar">C$ Canadian Dolar (CAD)</option>
+                    <option value="pesos">$ Mexican Peso (Mex$)</option>
+                    <option value="pound">£ Pound Sterling (GBP)</option>
+                    <option value="bitcoin">₿ Bitcoin (BTC)</option>
+                </select>
+            </label>
+            
+            <label>
+                AMOUNT:
+                <input class="input-values" type="number" inputmode="numeric" pattern="[0-9]*" placeholder="TYPE HERE">
+            </label>   
+            <button class="convert-button">CALCULATE</button>
+        </main>
+        
+        <section class="box2">
+            <div>
+                <img src="./assets/BrazilFlag.png" alt="flag-currency-to-be-converted">
+                <p>R$ Brazilian Real (BRL)</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+
+                <img class="img2" src="./assets/Arrow.png" alt="arrow">
+           
+            <div>
+                <img class="currency-image" src="./assets/USAFlag-1.png" alt="flag-converted-currency">
+                <p id="currency-name">US Dolar</p>
+                <p class="currency-value">$ 0.00</p>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./scripts.js"></script>
+</html>
