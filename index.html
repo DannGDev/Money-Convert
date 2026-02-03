@@ -19,20 +19,27 @@
            
             <label>
                 FROM:
-                <select>
-                    <option>R$ Brazilian Real (BRL)</option>
+                <select class="currency-select-1">
+                    <option value="real">R$ Brazilian Real (BRL)</option>
+                    <option value="bitcoin">₿ Bitcoin (BTC)</option>
+                    <option value="caddolar">C$ Canadian Dolar (CAD)</option>
+                    <option value="dolar">$ US Dolar (USD)</option>
+                    <option value="euro">€ Euro (EUR)</option>
+                    <option value="pesos">$ Mexican Peso (Mex$)</option>
+                    <option value="pound">£ Pound Sterling (GBP)</option>                   
                 </select>
             </label>
            
             <label>
                 TO:
-                <select class="currency-select">    
+                <select class="currency-select">
+                    <option value="real">R$ Brazilian Real (BRL)</option>
+                    <option value="bitcoin">₿ Bitcoin (BTC)</option>
+                    <option value="caddolar">C$ Canadian Dolar (CAD)</option>    
                     <option value="dolar">$ US Dolar (USD)</option>
                     <option value="euro">€ Euro (EUR)</option>
-                    <option value="caddolar">C$ Canadian Dolar (CAD)</option>
                     <option value="pesos">$ Mexican Peso (Mex$)</option>
-                    <option value="pound">£ Pound Sterling (GBP)</option>
-                    <option value="bitcoin">₿ Bitcoin (BTC)</option>
+                    <option value="pound">£ Pound Sterling (GBP)</option>  
                 </select>
             </label>
             
@@ -45,8 +52,8 @@
         
         <section class="box2">
             <div>
-                <img src="./assets/BrazilFlag.png" alt="flag-currency-to-be-converted">
-                <p>R$ Brazilian Real (BRL)</p>
+                <img class="currency-image-1" src="./assets/BrazilFlag.png" alt="flag-currency-to-be-converted">
+                <p id="currency-name-1">R$ Brazilian Real (BRL)</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
